@@ -1,0 +1,125 @@
+.sliderMain {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 5px solid black;
+  background-image: url("../Images/slide2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: rgb(255, 254, 254);
+}
+.sliderBar {
+  width: 10%;
+  height: 10vh;
+  margin: 0 auto;
+  padding: auto;
+}
+.sliderList {
+  position: absolute;
+  width: 50vw;
+  height: 30vh;
+  text-align: center;
+  z-index: 2;
+  border: 2px rgb(255, 255, 255) solid;
+  left: 10vh;
+  right: 10vh;
+  display: none;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3333;
+  z-index: 5;
+  left: 30vw;
+  border-radius: 10px;
+}
+.sliderList li {
+  list-style: none;
+    font-size: 1.8rem;
+    text-align: left;
+    width: 90%;
+    margin:2% auto;
+    margin-left:10% ;
+}
+.sliderBar i {
+  font-size: 2rem;
+  color: rgb(255, 254, 254);
+  cursor: pointer;
+  margin: 5px;
+}
+.Name {
+  width: 95%;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 7vh;
+}
+.Name img {
+  width: 50vw;
+  height: 25vh;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  filter: brightness(0.5);
+}
+.logo {
+  position: relative;
+  z-index: 3;
+  bottom: 25vh;
+}
+.Name p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 8vh;
+  text-align: center;
+  line-height: 5vh;
+  height: 5.5vh;
+  overflow: hidden;
+}
+.Name p span {
+  color: rgb(238, 215, 60);
+}
+
+@media screen and (min-width: 600px) {
+  .Name img {
+    width: 250px;
+    height: 220px;
+  }
+  .Name {
+    font-size: 1.5rem;
+  }
+  .Name p {
+    font-size: 2.5rem;
+    width: 45vw;
+    height: 10vh;
+  }
+  .Name {
+    margin-top: 5vh;
+  }
+  .logo {
+    bottom: 20vh;
+  }
+  .sliderBar {
+    padding: 0 5vh;
+  }
+  .Name h1 {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .sliderMain {
+    height: 80vh;
+  }
+  .sliderList {
+    width: 20vw;
+    height: 40vh;
+    background-color: #2c3333;
+    z-index: 5;
+    left: 30vw;
+  }
+}

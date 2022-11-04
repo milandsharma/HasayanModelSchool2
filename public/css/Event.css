@@ -1,0 +1,106 @@
+.EventMain{
+    width: 85%;
+    margin: 2vh auto;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event-cards{
+    width: 95%;
+    height: 100%;
+    margin: 1vh auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.EventHeading{
+    width: 100%;
+    height: 10vh;
+    margin: 1vh auto;
+    text-align: center;
+    color: rgb(19, 158, 158);
+}
+.cards{
+    width: 44%;
+    height: 20vh;
+    margin: 1vh;
+    padding: 1vh;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cardHeading{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 5vh;
+    top: 3vh;
+    color: rgb(228, 222, 222);
+    font-size:1.28rem
+}
+.cardHeading a{
+    text-decoration: none;
+    color: rgb(56, 145, 235);
+}
+.img1,.img2,.img3,.img4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url(../Images/sports/sports.jpg);
+}
+.img2{
+    background-image: url(../Images/activity/UniformDistribution/activity10.jpg);
+}
+.img3{
+    background-image: url(../Images/activity/harGharTrianga/activity12.jpg);
+}
+.img4{
+    background-image: url(../Images/activity/identyCardDistribution/activity4.jpg);
+}
+.cards:hover{
+    transform:scale(1.1)
+}
+.AllEvent{
+    width:30vw;
+    height:7vh;
+    margin: 1vh auto;
+}
+.AllEvent button{
+    background-color: rgb(19, 158, 158);
+    color: #fff;
+    width: 100%;
+    font-size: 1.5rem;
+
+    height: 100%;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.AllEvent button:hover{
+    background-color: rgb(56, 145, 235);
+}
+@media screen  and (max-width: 600px) {
+    
+    .event-cards{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+        height: 25vh;
+    }
+    .cards h3{
+        font-size: 1.28rem;
+    }
+    .AllEvent{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+}
