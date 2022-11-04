@@ -23,9 +23,9 @@ import { Typewriter } from 'react-simple-typewriter'
         <i onClick={changeSlider} class="fa-solid fa-bars"></i>
         <div  className="sliderList" style={slider}>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>  
-                <li><a href="#">Services</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/events">Events</a></li>  
+                <li><a href="https://forms.gle/QJWNGdg3m7LZjebY8">Services</a></li>
             </ul>
         </div>
         </div>
