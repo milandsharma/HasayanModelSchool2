@@ -7,7 +7,7 @@ import Administration from "./component/Administration";
 import Addmission from "./component/Addmission";
 import Event from "./component/event"
 import Footer from "./component/Footer";
-import {BrowserRouter as Router, Routes as Switch, Route,Link} from "react-router-dom"
+import {BrowserRouter as Router, Routes as Switch, Route} from "react-router-dom"
 import {GyanUtsav,sports,Award,Librarye,Ptm,harGharTrianga,identiyCardDistribution,TeacherDay,TrafficRules,UniformDistribution,YogDiwas,GandhiJyanti,Drawing} from "./component/Arrays"
 import Back from './component/back';
 const root = ReactDOM.createRoot(document.getElementById('root'));
